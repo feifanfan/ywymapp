@@ -1,0 +1,90 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  E:\ProgramData\Anaconda3;E:\ProgramData\Anaconda3\Library\mingw-w64\bin;E:\ProgramData\Anaconda3\Library\usr\bin;E:\ProgramData\Anaconda3\Library\bin;E:\ProgramData\Anaconda3\Scripts;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files\Java\jdk1.8.0_152\jre\bin;C:\python3\Scripts\;C:\python3\;E:\Program Files (x86)\xftp\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\phpstudy_pro\Extensions\php\php7.4.3nts;e:\composer;E:\Program Files\TortoiseGit\bin;E:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Administrator\AppData\Roaming\Composer\vendor\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\360Downloads\gradle-6.7.1-all\gradle-6.7.1\bin;E:\Program Files\Redis;D:\360Downloads\ADB;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;E:\Program Files\Go\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\Composer\vendor\bin;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\go\bin;
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Client network socket disconnected before secure TLS connection was established
+      at connResetException (internal/errors.js:607:14)
+      at TLSSocket.onConnectEnd (_tls_wrap.js:1544:19)
+      at TLSSocket.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "ywym",
+    "version": "1.0.0",
+    "private": true,
+    "description": "ywym",
+    "templateInfo": {
+      "name": "default",
+      "typescript": true,
+      "css": "sass"
+    },
+    "scripts": {
+      "build:weapp": "taro build --type weapp",
+      "build:swan": "taro build --type swan",
+      "build:alipay": "taro build --type alipay",
+      "build:tt": "taro build --type tt",
+      "build:h5": "taro build --type h5",
+      "build:rn": "taro build --type rn",
+      "build:qq": "taro build --type qq",
+      "build:jd": "taro build --type jd",
+      "build:quickapp": "taro build --type quickapp",
+      "dev:weapp": "npm run build:weapp -- --watch",
+      "dev:swan": "npm run build:swan -- --watch",
+      "dev:alipay": "npm run build:alipay -- --watch",
+      "dev:tt": "npm run build:tt -- --watch",
+      "dev:h5": "npm run build:h5 -- --watch",
+      "dev:rn": "npm run build:rn -- --watch",
+      "dev:qq": "npm run build:qq -- --watch",
+      "dev:jd": "npm run build:jd -- --watch",
+      "dev:quickapp": "npm run build:quickapp -- --watch"
+    },
+    "browserslist": [
+      "last 3 versions",
+      "Android >= 4.1",
+      "ios >= 8"
+    ],
+    "author": "",
+    "dependencies": {
+      "@babel/runtime": "^7.7.7",
+      "@tarojs/components": "3.3.1",
+      "@tarojs/runtime": "3.3.1",
+      "@tarojs/taro": "3.3.1",
+      "vue": "^3.0.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.8.0",
+      "@tarojs/mini-runner": "3.3.1",
+      "@tarojs/webpack-runner": "3.3.1",
+      "@types/webpack-env": "^1.13.6",
+      "@typescript-eslint/eslint-plugin": "^4.15.1",
+      "@typescript-eslint/parser": "^4.15.1",
+      "@vue/compiler-sfc": "^3.0.0",
+      "babel-preset-taro": "3.3.1",
+      "eslint": "^6.8.0",
+      "eslint-config-taro": "3.3.1",
+      "eslint-plugin-vue": "^7.0.0",
+      "stylelint": "9.3.0",
+      "typescript": "^4.1.0",
+      "vue-loader": "^16.0.0-beta.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
