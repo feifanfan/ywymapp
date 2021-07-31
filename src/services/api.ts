@@ -70,6 +70,15 @@ export default {
       xhrFields: { withCredentials: true },
       success(res) {
         setCookie(res)
+
+        if(res.statusCode === 404){
+          Taro.showToast({
+            icon:"none",
+            title:"接口错误"
+          })
+          return
+        }
+
         if (res.data.code === HTTP_STATUS.SERVER_ERROR) {
           Taro.showToast({
             icon:"none",

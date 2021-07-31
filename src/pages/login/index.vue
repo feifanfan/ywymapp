@@ -1,10 +1,8 @@
 <template>
   <view>
     <button open-type="getUserInfo" @getuserinfo="getUserInfoAction">授权登录</button>
-    <button open-type="getPhoneNumber"></button>
-    <uni-popup ref="popup" type="message">
-      <uni-popup-message type="center" message="登陆成功" :duration="2000"></uni-popup-message>
-    </uni-popup>
+    <button open-type="getPhoneNumber" @bindgetphonenumber="getPhoneNumber">获取手机号</button>
+
   </view>
 </template>
 
@@ -12,8 +10,9 @@
 
 import {login,setUserInfo} from "../../services/user";
 import Taro from '@tarojs/taro'
+import {defineComponent} from "vue";
 
-export default {
+export default defineComponent({
   onReady(){
     console.log("登录开始")
     Taro.login({
@@ -24,6 +23,7 @@ export default {
             key:"token",
             data:res.data.data.tokenHead+res.data.data.token
           })
+
         })
       }
     })
@@ -35,9 +35,13 @@ export default {
     },
     reg(userinfo){
       setUserInfo(userinfo)
+    },
+    //TODO 测试是否可用
+    getPhoneNumber(e){
+      console.log(e)
     }
   }
-}
+})
 </script>
 
 <style>

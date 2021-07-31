@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8967e689-4bc2-4e70-9251-1af3990b8f4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/login/index.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/panel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/user/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/icon/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/icon/home_click.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/icon/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/icon/user_click.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/code.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/api.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="Vue Single File Component" />
+        <option value="SCSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -33,7 +49,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/login" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/public/images/icon" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,6 +63,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\ywym\src\public\images\icon" />
       <recent name="E:\project\ywym\src\pages\login" />
     </key>
   </component>
@@ -61,6 +79,11 @@
       <workItem from="1627092435816" duration="4313000" />
       <workItem from="1627265816461" duration="11000" />
       <workItem from="1627265836269" duration="3873000" />
+      <workItem from="1627358189274" duration="1924000" />
+      <workItem from="1627458624427" duration="4456000" />
+      <workItem from="1627538945341" duration="9370000" />
+      <workItem from="1627605121936" duration="17974000" />
+      <workItem from="1627691869209" duration="1223000" />
     </task>
     <servers />
   </component>
